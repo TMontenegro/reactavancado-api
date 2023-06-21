@@ -1,0 +1,80 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "landingPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "header": {
+      "displayName": "header",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "sectionAboutProject": {
+      "displayName": "sectionAboutProject",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about-project"
+    },
+    "sectionTech": {
+      "displayName": "sectionTech",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-tech"
+    },
+    "sectionConcepts": {
+      "displayName": "sectionConcepts",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-concepts"
+    },
+    "sectionModules": {
+      "displayName": "sectionModules",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-modules",
+      "required": true
+    },
+    "pricingBox": {
+      "displayName": "pricingBox",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.pricing-box",
+      "required": true
+    },
+    "sectionAboutUs": {
+      "displayName": "sectionAboutUs",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about-us"
+    },
+    "sectionReviews": {
+      "displayName": "sectionReviews",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-reviews"
+    },
+    "sectionFaq": {
+      "displayName": "sectionFaq",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.section-faq"
+    }
+  }
+}
